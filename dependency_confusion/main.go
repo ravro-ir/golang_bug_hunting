@@ -37,7 +37,7 @@ type PackageJson struct {
 
 func OpenFile() string {
 
-	jsonFile, err := os.Open("C:\\Users\\raminfp\\GolandProjects\\ravro_live_golang\\dependency_confusion\\package.json")
+	jsonFile, err := os.Open("package.json")
 	if err != nil {
 		log.Fatalln(err)
 	}
