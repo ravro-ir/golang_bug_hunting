@@ -1,5 +1,6 @@
 ﻿# Golang For Bug Hunting (Live)
  
+ > In these two live sessions, I intended to teach how to write tools with `golang` for vulnerability hunting.
  
   ## Video by [@raminfp](https://github.com/raminfp)
 - `Part 1 (Persian language)` - https://www.youtube.com/watch?v=GY6vrAH_SuU
