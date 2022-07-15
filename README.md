@@ -2,7 +2,7 @@
  
  
   ## Video by [@raminfp](https://github.com/raminfp)
-- `Part 1` - https://www.youtube.com/watch?v=GY6vrAH_SuU
+- `Part 1 (Persian language)` - https://www.youtube.com/watch?v=GY6vrAH_SuU
 
  ## Code
  
@@ -24,3 +24,6 @@
 - `SSRF` - https://github.com/ravro-ir/golang_bug_hunting/tree/main/ssrf
 - `Race Condition` - https://github.com/ravro-ir/golang_bug_hunting/tree/main/race_condition
 
+
+I hope enjoy, <br />
+Thanks, Ramin
