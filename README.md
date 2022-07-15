@@ -20,7 +20,7 @@
 - `Dependency Confusion` - https://github.com/ravro-ir/golang_bug_hunting#:~:text=dependency_confusion
 - `S3 Bucket Takeover` - https://github.com/ravro-ir/golang_bug_hunting/tree/main/s3bucket_takeover
 - `Subdomain Takeover` - https://github.com/ravro-ir/golang_bug_hunting/tree/main/subdomain_takeover
-- `Path Traversal` - https://github.com/ravro-ir/golang_bug_hunting/tree/main/path_traversal
+- `Path Traversal - CVE-2021-41773` - https://github.com/ravro-ir/golang_bug_hunting/tree/main/path_traversal
 - `SSRF` - https://github.com/ravro-ir/golang_bug_hunting/tree/main/ssrf
 - `Race Condition` - https://github.com/ravro-ir/golang_bug_hunting/tree/main/race_condition
 
