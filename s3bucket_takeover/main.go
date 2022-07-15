@@ -12,7 +12,7 @@ import (
 
 func OpenFile() string {
 
-	jsonFile, err := os.Open("C:\\Users\\raminfp\\GolandProjects\\ravro_live_golang\\s3bucket_takeover\\README.md")
+	jsonFile, err := os.Open("README.md")
 	if err != nil {
 		log.Fatalln(err)
 	}
