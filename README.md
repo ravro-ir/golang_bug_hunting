@@ -12,7 +12,7 @@
   - `Port scan no auth database` - https://github.com/ravro-ir/golang_bug_hunting/tree/main/recon/portscannoauthdb
   - `Arvan Cloud`
     - `CDN Finder` - https://github.com/ravro-ir/golang_bug_hunting/tree/main/recon/arvan/cdn_finder
-    - `S3 Bucker Enum` - https://github.com/ravro-ir/golang_bug_hunting/tree/main/recon/arvan/s3_bucket_enum
+    - `S3 Bucket Enum` - https://github.com/ravro-ir/golang_bug_hunting/tree/main/recon/arvan/s3_bucket_enum
 - `Clickjacking` - https://github.com/ravro-ir/golang_bug_hunting/tree/main/clickjacking
 - `CORS` - https://github.com/ravro-ir/golang_bug_hunting/tree/main/cors
 - `DoS` - https://github.com/ravro-ir/golang_bug_hunting/tree/main/dos
