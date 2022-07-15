@@ -1,0 +1,42 @@
+version: "3.8"
+
+services:
+  db:
+    image: "mysql:5.7"
+    restart: "always"
+    env_file:
+      - "config/mysql.env"
+    expose:
+      - "3306"
+    volumes:
+      - "db:/var/lib/mysql"
+
+  app:
+    build: "project/"
+    env_file:
+      - "config/mysql.env"
+      - "config/django.env"
+    expose:
+      - "8000"
+    volumes:
+      - "./project:/usr/src/app"
+    depends_on:
+      - "db"
+
+  server:
+    image: "nginx:1.19-alpine"
+    restart: "always"
+    ports:
+      - "80:80"
+    volumes:
+      - "./project/static:/srv"
+      - "./config/nginx.conf:/etc/nginx/conf.d/default.conf"
+    depends_on:
+      - "app"
+      # We might need to look into using something like wait-for to wait for
+      # gunicorn to start serving on port 8000. Since this isn't leading to
+      # crashing anything, for the time being I'll just live with waiting a
+      # few seconds myself.
+
+volumes:
+  db:

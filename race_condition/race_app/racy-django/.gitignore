@@ -1,0 +1,8 @@
+# Directories:
+.vscode/
+static/
+__pycache__/
+
+# Static:
+*.swp
+*.pyc
