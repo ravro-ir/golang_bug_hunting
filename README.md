@@ -4,6 +4,7 @@
  
   ## Video by [@raminfp](https://github.com/raminfp)
 - `Part 1 (Persian language)` - https://www.youtube.com/watch?v=GY6vrAH_SuU
+- `Part 2 (Persian language)` - https://www.youtube.com/watch?v=KEMFi0V2zdM
 
  ## Code
  
