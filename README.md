@@ -18,7 +18,7 @@
 - [Clickjacking](https://github.com/ravro-ir/golang_bug_hunting/tree/main/clickjacking)
 - [CORS](https://github.com/ravro-ir/golang_bug_hunting/tree/main/cors)
 - [DoS](https://github.com/ravro-ir/golang_bug_hunting/tree/main/dos)
-- [OGNL Injection - CVE-2022-2613](https://github.com/ravro-ir/golang_bug_hunting/tree/main/ognl_injection)
+- [OGNL Injection - CVE-2022-26134](https://github.com/ravro-ir/golang_bug_hunting/tree/main/ognl_injection)
 - [Dependency Confusion](https://github.com/ravro-ir/golang_bug_hunting)
 - [S3 Bucket Takeover](https://github.com/ravro-ir/golang_bug_hunting/tree/main/s3bucket_takeover)
 - [Subdomain Takeover](https://github.com/ravro-ir/golang_bug_hunting/tree/main/subdomain_takeover)
