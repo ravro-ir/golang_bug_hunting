@@ -19,7 +19,7 @@
 - [CORS](https://github.com/ravro-ir/golang_bug_hunting/tree/main/cors)
 - [DoS](https://github.com/ravro-ir/golang_bug_hunting/tree/main/dos)
 - [OGNL Injection - CVE-2022-26134](https://github.com/ravro-ir/golang_bug_hunting/tree/main/ognl_injection)
-- [Dependency Confusion](https://github.com/ravro-ir/golang_bug_hunting)
+- [Dependency Confusion](https://github.com/ravro-ir/golang_bug_hunting/tree/main/dependency_confusion)
 - [S3 Bucket Takeover](https://github.com/ravro-ir/golang_bug_hunting/tree/main/s3bucket_takeover)
 - [Subdomain Takeover](https://github.com/ravro-ir/golang_bug_hunting/tree/main/subdomain_takeover)
 - [Path Traversal - CVE-2021-41773](https://github.com/ravro-ir/golang_bug_hunting/tree/main/path_traversal)
